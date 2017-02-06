@@ -8,6 +8,10 @@ $(window).load(function() {
 
 	$('.location-img').height($(window).height() / 1.6);
 	$('.taeter-img').height($(window).height() / 4.5);
+	$('.endcard-img').width($(window).width() );
+
+
+	
 /*	$('.bubble_container').width($(window).width() /1.2);
 	$('.bubble_container').height($(window).height() /4);*/
 
@@ -17,6 +21,8 @@ $(window).load(function() {
 $(window).on('resize', function() {
 	$('.location-img').height($(window).height() / 1.6);
 	$('.taeter-img').height($(window).height() / 4.5);
+	$('.endcard-img').width($(window).width() );
+
 /*	$('.bubble_container').width($(window).width() /1.2);
 	$('.bubble_container').height($(window).height() /4);*/
 
