@@ -24,20 +24,12 @@ function renderIndicators(){
 
 
 
-//DEBUG
 
 
-function setCookie(name, value) {
-
+function setValue(valueName, value) {
 	window.localStorage.setItem(name, parseInt(value));
-
-	console.log("set "+name+" to "+value);
 }
 
-function readCookie(cname) {
-
-	return parseInt(window.localStorage.getItem(cname));
-
+function getValue(valueName) {
+	return parseInt(window.localStorage.getItem(valueName));
 }
-
-

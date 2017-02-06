@@ -25,8 +25,7 @@ html, body {
 	text-align: center;
 	overflow:auto;
 	/*funktioniert nicht mit %-Angaben. Funktioniert es mit touch (beim simulator nicht)*/
-	height:10em;
-	
+	height:10em;	
 }
 
 .page-img-container {
@@ -37,11 +36,18 @@ html, body {
 
 
 .bubble_container {
+		width: 75%;		
 		display:inline-block;
-		width: 70%;		
 		padding: 2%;
 		border-radius: 4em;
 		background:#902c2f;
+	}
+	
+	#notebook{
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
+	border-style: solid black;
 	}
 
 
@@ -64,16 +70,11 @@ html, body {
 	padding: 0 !important;
 }
 
-
 #map {
 	height: 100%;
 }
 
-.taeter-img {
-	
-	height: 65%;
-	width: 65%;
-}
+
 
 body.mode{
 	background: lightgreen;
